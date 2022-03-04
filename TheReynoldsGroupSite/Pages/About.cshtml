@@ -1,0 +1,148 @@
+﻿@page
+@model TheReynoldsGroupSite.Pages.AboutModel
+@{
+    ViewData["Title"] = "AboutView";
+}
+
+<div class="container-fluid">
+    <div class="aboutPage">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="aboutCoTitle">About<br /><strong> The Reynolds Group</strong>
+                 </div>
+        <h3 class="aboutCoHeading">At the Reynolds Group, we transform lives from the inside out through education, training & coaching, plus research & thought leadership.</h3>
+        <p class="aboutCoContent"> Founded in 2005, we have delivered discreet, practical coaching to thousands
+            of individuals and teams. <br /><br />The Reynolds Group stems from their passion to help other entrepreneurs like themselves. For every business leader there is incredible value in building the right team, finding the ideal peer group and learning from a well-matched coach to drive both better business outcomes and a happier, more fulfilling life.
+
+</p>
+           
+        </div>
+        <div class="col-sm-4">
+            <img class="about-img img-fluid" src="~/Images/about1.jpg" width="461" alt="Photo of RJ Reynolds" />
+        </div>
+        <div class="col-sm-4">
+            <div class="aboutTitle">
+           <h2> About<br /><br /> Our Founder and CEO<br /></h2>
+            </div>
+            <div class="aboutCoHeading">R.J. Reynolds</div>
+                           <p class="aboutRJContent"> As the Managing Principal of Reynolds Group, Rob helps
+                           leaders consistently see tangible, real-world benefits, by
+                         working with them in a straightforward, honest
+                           and practical way
+                           to make behavioral changes that are directly linked to the organization’s 
+                          strategic initiatives,
+                          and their own effectiveness as a leader.</p>
+           
+            
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="about-intro">
+        <div class="text-center about-intro">Improve Your Leaders' Effectiveness with Better Communication and Collaboration</div>
+        <p class="about-intro-content">When you think about the leaders you work with most effectively, what attributes come to mind?<br />
+            Strong communication skills and a collaborative approach are likely at the top of your list.<br /> For leaders,
+            communication and collaboration aren’t just nice-to-haves.<br /> These skills are critical for their <br />
+            individual teams — and your organization as a whole — to thrive.</p>
+   </div>
+</div>
+<div class="container-fluid">
+    <div class="aboutTeam">
+
+         <div class="aboutTeamTitle">
+            <h3>  Meet The Team</h3>
+             
+         </div>
+       
+            <div class="row">
+               
+                <div class="col-sm-4">
+                     <img src="~/Images/about2.jpg" alt="photo of manager" height="400" width="400"class="aboutMGRImg img-fluid  rounded about-mgr1" />
+                        <h3 class="about-mgr1">Rob Denker, Master Certified Coach</h3>
+                         <p class="about-mgr1">As Managing Principal of Reynolds Group, Rob helps leaders consistently see tangible, real-world benefits
+                             by working with them in a strightforward, honest and practical way.</p>
+                      <div class="btn btn-about about-mgr1"><a asp-page="./RobView">Learn More</a></div>
+                        
+                 </div>
+                 <div class="col-sm-4">
+                      <img src="~/Images/about3.jpg" alt="photo of manager" height="400" width="400"class="aboutMGRImg img-fluid rounded" />
+                        <h3>Sam Matson,Certified Coach, Consultant</h3>
+                       <p>As a business leader, consultant, and coach, Sam has focused throughout his career on helpong individual leaders and  teams grow in ways that create concrete business results.</p>
+                         <div class="btn btn-about"><a  asp-page="./SamView">Learn More</a></div>
+               
+                 </div>
+                
+                 <div class="col-sm-4">
+                      <img src="~/Images/about5.jpg" alt="photo of Manager" height="400" width="400"class="aboutMGRImg img-fluid  rounded " />
+                      <h3>Kevin Ecclesine, B.S.M.A.</h3>
+                      <p>As an Executive leader, consultant, and coach, Kevin has worked to<br /> assist leaders and teams in achieving targeted business results.</p>
+                      <div class="btn btn-about"><a asp-page="./KevinView">Learn More</a></div>
+                
+                 </div>
+       
+
+            </div>
+     </div>
+        
+</div>
+
+<div class="container-fluid">
+
+    <div class="aboutTeamMembers">
+
+        <div class="row">
+            <div class="col-sm-3 offset-sm-1">
+       <div class="memberList text-center">
+                <img src="~/Images/member1.jpg" alt="team member" class="img-fluid rounded text-center" width="200" height="200" />
+              <h5>Asha Saxena</h5>
+                <div class="btn btn-member"><a asp-page="./AshaView"class="member-btn">Learn More</a></div>
+                </div>
+            
+            
+            <div class="memberList text-center">
+                <img src="~/Images/member3.jpg" alt="team member" class="img-fluid rounded text-center " width="200" height="200" />
+                <h5>Chris Fernandez</h5>
+                <div class="btn btn-member"><a asp-page="./ChrisView" class="member-btn" >Learn More</a></div>
+                </div>
+                 <div class="memberList text-center "> 
+                     <img src="~/Images/member2.jpg" alt="team member" class="img-fluid rounded text-center " width="200" height="200" />
+                 <h5>Cynthia Cleveland</h5>
+                <div class="btn btn-member"><a  asp-page="./CynthiaView" class="member-btn" >Learn More</a></div>
+                </div>
+           </div>
+
+
+           <div class="col-sm-2 offset-sm-1">
+               <img src="~/Images/growth3.jpg" class="img-fluid growth" height="600px" />
+
+
+
+
+           </div>
+           <div class="col-sm-3 offset-sm-1"> 
+           
+              <div class="memberList text-center ">
+                <img src="~/Images/member4.jpg" alt="team member" class="img-fluid rounded text-center" width="200" height="200" />
+                 <h5>Maureen Hersey</h5>
+                <div class="btn btn-member"><a asp-page="./MaureenView" class="member-btn" >Learn More</a></div>
+            </div>
+             <div class="memberList text-center">
+                <img src="~/Images/member5.jpg" alt="team member" class="img-fluid rounded text-center " width="200" height="200" />
+                <h5>Chris Mellon</h5>
+                <div class="btn btn-member"><a  asp-page="./MellonView" class="member-btn" >Learn More</a></div>
+          </div>
+            <div class="memberList text-center ">
+            
+                <img src="~/Images/rj.jpg" alt="team member" class="img-fluid rounded text-center " width="200" height="200" />
+
+                 <h5>Andres Molano</h5>
+               <div class="btn btn-member"><a  asp-page="./AndresView" class="member-btn" >Learn More</a></div>   
+           </div>
+           </div>
+          </div>
+  
+</div>
+</div>

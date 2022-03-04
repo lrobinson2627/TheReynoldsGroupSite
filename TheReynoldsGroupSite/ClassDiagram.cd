@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ReynoldsWebSite.Pages.AndresViewModel">
+    <Position X="5.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\AndresView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.AshaViewModel">
+    <Position X="5.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\AshaView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.ChrisViewModel">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\ChrisView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.CynthiaViewModel">
+    <Position X="4" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\CynthiaView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.KevinViewModel">
+    <Position X="4" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\KevinView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.MaureenViewModel">
+    <Position X="4" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\MaureenView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.MellonViewModel">
+    <Position X="2.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\MellonView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.RobViewModel">
+    <Position X="2.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\RobView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReynoldsWebSite.Pages.SamViewModel">
+    <Position X="2.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\SamView.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Data.Category" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAJAAAAAACIAAACAACAAQAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Data\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Data.Client" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAABAAAEAAA=</HashCode>
+      <FileName>Data\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Data.Coach" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCABAAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Coach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Data.Question">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgAQAAAAAAkAAAAAAAAAAYAAASAAQAAAAAAA=</HashCode>
+      <FileName>Data\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Data.TheReynoldsGroupSiteContext">
+    <Position X="14.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAAAAAAACAQ=</HashCode>
+      <FileName>Data\TheReynoldsGroupSiteContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.AboutModel">
+    <Position X="2.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\About.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.ContactModel">
+    <Position X="9" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Contact.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.ErrorModel">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Error.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.IndexModel">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.PortalModel" Collapsed="true">
+    <Position X="14.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Portal.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.PrivacyModel">
+    <Position X="10.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Privacy.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.ServicesModel">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Services.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Categories.CreateModel" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQEAAAACAA=</HashCode>
+      <FileName>Pages\Categories\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Categories.DeleteModel" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAEAAAACAA=</HashCode>
+      <FileName>Pages\Categories\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Categories.DetailsModel" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pages\Categories\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Categories.EditModel" Collapsed="true">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAEAAgACAA=</HashCode>
+      <FileName>Pages\Categories\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Categories.IndexModel" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pages\Categories\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Clients.CreateModel" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQEAAAAAAQ=</HashCode>
+      <FileName>Pages\Clients\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Clients.DeleteModel" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Pages\Clients\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Clients.DetailsModel" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Pages\Clients\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Clients.EditModel" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAABAAgAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Pages\Clients\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Clients.IndexModel" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Pages\Clients\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Coaches.CreateModel" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\Coaches\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Coaches.DeleteModel" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAgAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Coaches\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Coaches.DetailsModel" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Coaches\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Coaches.EditModel" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAIAAgAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Coaches\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Coaches.IndexModel" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Coaches\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Questions.CreateModel">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAQEAAAAAAA=</HashCode>
+      <FileName>Pages\Questions\Create.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Questions.DeleteModel">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAEAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Questions\Delete.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Questions.DetailsModel">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Questions\Details.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Questions.EditModel">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAQAAAAAAAEAAAEAAAAAAA=</HashCode>
+      <FileName>Pages\Questions\Edit.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheReynoldsGroupSite.Pages.Questions.IndexModel">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Questions\Index.cshtml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

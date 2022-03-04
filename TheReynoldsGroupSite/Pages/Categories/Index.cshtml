@@ -1,0 +1,84 @@
+﻿@page
+@model TheReynoldsGroupSite.Pages.Categories.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].CategoryTypevalue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].CategoryDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].TotalValuesFromQuestions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].TenToSeven)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].SixToFour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].ThreeToOne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].Zero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].NegOneToNegTwo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category[0].NegThreeToNegFour)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Category) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryTypevalue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalValuesFromQuestions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenToSeven)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SixToFour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThreeToOne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Zero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NegOneToNegTwo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NegThreeToNegFour)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+﻿@page
+@model TheReynoldsGroupSite.Pages.Coaches.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Coach</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Coach.CoachId" />
+            <div class="form-group">
+                <label asp-for="Coach.CoachFirstName" class="control-label"></label>
+                <input asp-for="Coach.CoachFirstName" class="form-control" />
+                <span asp-validation-for="Coach.CoachFirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coach.CoachLastName" class="control-label"></label>
+                <input asp-for="Coach.CoachLastName" class="form-control" />
+                <span asp-validation-for="Coach.CoachLastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coach.CoachType" class="control-label"></label>
+                <input asp-for="Coach.CoachType" class="form-control" />
+                <span asp-validation-for="Coach.CoachType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coach.Id" class="control-label"></label>
+                <input asp-for="Coach.Id" class="form-control" />
+                <span asp-validation-for="Coach.Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

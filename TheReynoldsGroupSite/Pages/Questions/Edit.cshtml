@@ -1,0 +1,75 @@
+﻿@page
+@model TheReynoldsGroupSite.Pages.Questions.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Question</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Question.Id" />
+            <div class="form-group">
+                <label asp-for="Question.AskQuestion" class="control-label"></label>
+                <input asp-for="Question.AskQuestion" class="form-control" />
+                <span asp-validation-for="Question.AskQuestion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.QuestionNumber" class="control-label"></label>
+                <input asp-for="Question.QuestionNumber" class="form-control" />
+                <span asp-validation-for="Question.QuestionNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.CategoryType" class="control-label"></label>
+                <input asp-for="Question.CategoryType" class="form-control" />
+                <span asp-validation-for="Question.CategoryType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.AssessmentName" class="control-label"></label>
+                <input asp-for="Question.AssessmentName" class="form-control" />
+                <span asp-validation-for="Question.AssessmentName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.MostLikely" class="control-label"></label>
+                <input asp-for="Question.MostLikely" class="form-control" />
+                <span asp-validation-for="Question.MostLikely" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.Likley" class="control-label"></label>
+                <input asp-for="Question.Likley" class="form-control" />
+                <span asp-validation-for="Question.Likley" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.Neutral" class="control-label"></label>
+                <input asp-for="Question.Neutral" class="form-control" />
+                <span asp-validation-for="Question.Neutral" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.Unlikely" class="control-label"></label>
+                <input asp-for="Question.Unlikely" class="form-control" />
+                <span asp-validation-for="Question.Unlikely" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Question.MostUnlikely" class="control-label"></label>
+                <input asp-for="Question.MostUnlikely" class="form-control" />
+                <span asp-validation-for="Question.MostUnlikely" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

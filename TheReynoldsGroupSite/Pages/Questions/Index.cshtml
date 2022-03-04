@@ -1,0 +1,84 @@
+﻿@page
+@model TheReynoldsGroupSite.Pages.Questions.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].AskQuestion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].QuestionNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].CategoryType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].AssessmentName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].MostLikely)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].Likley)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].Neutral)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].Unlikely)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Question[0].MostUnlikely)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Question) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AskQuestion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuestionNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssessmentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MostLikely)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Likley)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Neutral)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unlikely)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MostUnlikely)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
